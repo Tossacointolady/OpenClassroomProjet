@@ -329,3 +329,59 @@ hr /* Barre ligne */
     }
 }
 
+
+/*RESOLUTION ECRAN*/
+@media all  and (max-width: 1024px)
+{
+     #bloc_page
+    {
+    width: auto;
+    font-size: 21px;
+    }
+
+    header
+    {
+    width: auto;
+    background-color: #263238;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ 
+    }
+
+    .titre/* Nom prénom */
+    {
+    color: white;
+    padding: 0px 0px 20px 0px;
+
+    }
+    .conteneur
+    {
+    width: auto;
+    background-color: #37474F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ 
+    }
+    .colonnegauche
+    {
+    width: auto;
+    background-color: #37474F;
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+    }
+
+}
+
+/* téléphone */
+@media screen and (min-width: 320px) and (max-width: 720px) 
+{
+
+ 
+}
+
+
