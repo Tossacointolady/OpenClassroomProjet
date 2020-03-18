@@ -374,6 +374,14 @@ hr /* Barre ligne */
     flex-direction: nowrap;
     justify-content: center;
     }
+    .Pres2
+    {
+    width: auto;
+    height: 300px;
+    overflow-y: scroll;
+    margin: 10px 0px 0px 20px;
+    padding: 0px 20px;
+    }
 
 }
 
