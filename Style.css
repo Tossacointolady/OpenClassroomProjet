@@ -63,3 +63,23 @@ img
     border-radius: 75% ;
     margin: 40px 0px 0px 70px;
 }
+
+
+/* Partie gauche du CV */
+
+.conteneur
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: flex-start;
+
+}
+
+
+aside 
+{
+    width: 250px;
+    color: #181818;
+    background-color: #263238; 
+}
+
