@@ -21,3 +21,45 @@ body
   
 
 
+
+.minilogo i 
+{
+ border-radius: 50%;
+ margin: 10px 0px 0px 20px;
+ border: 2px solid white;
+ padding: 8px;
+}
+
+
+/* Icon et titre*/
+
+header
+{
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: flex-start;
+ 
+}
+.titre/* Nom prénom */
+{
+ 
+    color: white;
+    margin: 25px 0px 0px 15px;
+
+}
+
+.logo 
+{
+    width: 250px;
+    background-color: #263238;
+    height: 200px;
+
+}
+
+img 
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 75% ;
+    margin: 40px 0px 0px 70px;
+}
