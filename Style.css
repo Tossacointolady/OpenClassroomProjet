@@ -241,3 +241,91 @@ hr /* Barre ligne */
 
 
 
+
+
+/* très grand écran */
+@media all and (min-width: 1600px) and (max-width: 2560px)
+
+{
+
+     #bloc_page
+    {
+    width: 1320px;
+    font-size: 33px;
+    }
+    
+    header
+    {
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: flex-start;
+    }
+    .logo 
+    {
+    width: 400px;
+    background-color: #263238;
+    height: 400px;
+
+    }
+
+    img 
+    {
+    width: 200px;
+    height: 200px;
+    border-radius: 75% ;
+    margin: 40px 0px 0px 70px;
+    }
+    h3/* Titre coté gauche*/
+    {
+    width: 400px;
+    background-color: #0097A7; 
+    color: white;
+    text-align:center;
+    padding: 5px 0px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    }
+    .Pres2
+    {
+    width: 360px;
+    color: #FFFFFF;
+    text-align:justify;
+    margin: 10px 0px 20px 20px;
+    }
+    aside 
+    {
+    width: 400px;
+    color: #181818;
+    background-color: #263238; 
+    }
+
+
+    .minidate
+    {
+    width: 250px;
+
+    }
+    .minidate2
+    {
+    width: 250px;
+
+    }
+    .xp
+    {
+    width: 400px;
+    }
+
+
+    .reco1
+    {
+    width: 400px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 15px;
+    }
+
+
+    h2 
+    {
+    font-size: 33px;
+    }
+}
+
