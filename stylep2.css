@@ -406,7 +406,6 @@ hr /* Barre ligne */
     {
     width: auto;
     font-size: 21px;
-    display: flex;
     }
     .conteneur
     {
@@ -425,13 +424,14 @@ hr /* Barre ligne */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;   
+    align-items:center;
+ 
     }
+
     .titre/* Nom prénom */
     {
     font-size: 12px;
     color: white;
-    background-color: #263238;
     padding: 0px 0px 20px 0px;
 
     }
@@ -448,14 +448,12 @@ hr /* Barre ligne */
     .colonnegauche
     {
     width: auto;
+    background-color: #37474F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     }
-    .contact , .moi , .loisir
-    {
-    background-color: #263238;
-    }
+
     .Pres2
     {
     width: auto;
