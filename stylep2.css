@@ -1,6 +1,5 @@
 
 
-
 /* Recherche de nom cool pour me retrouver */
 
 body
@@ -230,11 +229,15 @@ h2/* Titre du coté droit*/
 
 hr /* Barre ligne */
 {
-	height: 2px;
-	border: 0;
-	background-color: #0097A7;
+    height: 2px;
+    border: 0;
+    background-color: #0097A7;
     margin: 0px 0px 5px 15px;
 }
+
+
+
+
 
 
 
@@ -345,7 +348,7 @@ hr /* Barre ligne */
     header
     {
     width: auto;
-    background-color: #263238;
+    background-color: #37474F;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -418,7 +421,7 @@ hr /* Barre ligne */
     header
     {
     width: auto;
-    background-color: #263238;
+    background-color: #37474F;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -428,6 +431,7 @@ hr /* Barre ligne */
     {
     font-size: 12px;
     color: white;
+    background-color: #263238;
     padding: 0px 0px 20px 0px;
 
     }
