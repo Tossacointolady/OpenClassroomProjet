@@ -244,6 +244,8 @@ hr /* Barre ligne */
 
 
 
+
+
 /* très grand écran */
 @media all and (min-width: 1600px) and (max-width: 2560px)
 
@@ -331,7 +333,7 @@ hr /* Barre ligne */
 }
 
 
-/*RESOLUTION ECRAN*/
+/*RESOLUTION ECRAN tablette*/
 @media all  and (max-width: 1024px)
 {
      #bloc_page
@@ -370,7 +372,6 @@ hr /* Barre ligne */
     .colonnegauche
     {
     width: auto;
-    background-color: #37474F;
     display: flex;
     flex-direction: nowrap;
     justify-content: center;
@@ -378,12 +379,20 @@ hr /* Barre ligne */
     .Pres2
     {
     width: auto;
-    height: 300px;
-    overflow-y: scroll;
     margin: 10px 0px 0px 20px;
     padding: 0px 20px;
     }
-
+    .contact , .moi , .loisir
+    {
+    background-color: #263238;
+    }
+    #titre
+    {
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: center;
+    align-items:flex-end;
+    }
 }
 
 /* téléphone */
@@ -394,6 +403,7 @@ hr /* Barre ligne */
     {
     width: auto;
     font-size: 21px;
+    display: flex;
     }
     .conteneur
     {
@@ -412,10 +422,8 @@ hr /* Barre ligne */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
- 
+    align-items:center;   
     }
-
     .titre/* Nom prénom */
     {
     font-size: 12px;
@@ -436,17 +444,17 @@ hr /* Barre ligne */
     .colonnegauche
     {
     width: auto;
-    background-color: #37474F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     }
-
+    .contact , .moi , .loisir
+    {
+    background-color: #263238;
+    }
     .Pres2
     {
     width: auto;
-    height: 200px;
-    overflow-y: scroll;
     color: #FFFFFF;
     text-align:justify;
     margin: 10px 0px 0px 20px;
