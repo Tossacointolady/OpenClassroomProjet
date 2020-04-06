@@ -1,6 +1,6 @@
 
 
-/* Recherche de nom cool pour me retrouver */
+/* General */
 
 body
 {
@@ -34,16 +34,14 @@ body
 
 header
 {
-    display: flex;
-    flex-direction: nowrap;
-    justify-content: flex-start;
+
  
 }
 .titre/* Nom prénom */
 {
  
     color: white;
-    margin: 25px 0px 0px 15px;
+    margin: 55px 0px 90px 15px;
 
 }
 
@@ -52,7 +50,6 @@ header
     width: 250px;
     background-color: #263238;
     height: 200px;
-
 }
 
 img 
@@ -345,16 +342,7 @@ hr /* Barre ligne */
     font-size: 21px;
     }
 
-    header
-    {
-    width: auto;
-    background-color: #37474F;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
- 
-    }
+
 
     .titre/* Nom prénom */
     {
@@ -366,30 +354,35 @@ hr /* Barre ligne */
     .conteneur
     {
     width: auto;
-    background-color: #37474F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
  
     }
-    .colonnegauche
+    aside
+    {
+    width: auto;
+    }
+    .logo
     {
     width: auto;
     display: flex;
-    flex-direction: nowrap;
     justify-content: center;
+    align-items:flex-start;
+    padding: 0px 50px 0px 0px;
+    
     }
-    .Pres2
+    .gauche 
     {
     width: auto;
-    margin: 10px 0px 0px 20px;
-    padding: 0px 20px;
+    background-color: #263238;   
+    display: flex;
+    flex-direction: nowrap;
+    justify-content: flex-start;
+    align-items:flex-start;
     }
-    .contact , .moi , .loisir
-    {
-    background-color: #263238;
-    }
+
     #titre
     {
     display: flex;
@@ -410,23 +403,12 @@ hr /* Barre ligne */
     .conteneur
     {
     width: auto;
-    background-color: #37474F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
- 
     }
-    header
-    {
-    width: auto;
-    background-color: #263238;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
- 
-    }
+
 
     .titre/* Nom prénom */
     {
@@ -437,6 +419,7 @@ hr /* Barre ligne */
     padding: 0px 0px 20px 0px;
 
     }
+
     /* Coté droit du cv*/
     .bloc1 , .bloc2 ,.bloc3
     {
@@ -447,21 +430,15 @@ hr /* Barre ligne */
     align-items:center;
 
     }
-    .colonnegauche
+    aside .gauche
     {
     width: auto;
-    background-color: #37474F;
+    background-color: #263238;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
     }
 
-    .Pres2
-    {
-    width: auto;
-    color: #FFFFFF;
-    text-align:justify;
-    margin: 10px 0px 0px 20px;
-    padding: 0px 20px;
-    }
+
 }
